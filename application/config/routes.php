@@ -79,3 +79,8 @@ $route['commonfunctions'] = 'CommonFun_Controller';
 
 $route['cachecontroller'] = 'Cache_controller'; 
 $route['cachecontroller/delete'] = 'Cache_controller/delete_file_cache';
+
+$route['profiler'] = "Profiler_controller"; 
+$route['profiler/disable'] = "Profiler_controller/disable";
+
+$route['lang'] = "Lang_controller";
