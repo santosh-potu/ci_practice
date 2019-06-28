@@ -74,3 +74,8 @@ $route['tempdata/add'] = "Tempdata_controller/add";
 $route['cookie'] = "Cookie_controller"; 
 $route['cookie/display'] = "Cookie_controller/display_cookie"; 
 $route['cookie/delete'] = "Cookie_controller/delete_cookie";
+
+$route['commonfunctions'] = 'CommonFun_Controller';
+
+$route['cachecontroller'] = 'Cache_controller'; 
+$route['cachecontroller/delete'] = 'Cache_controller/delete_file_cache';
