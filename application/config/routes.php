@@ -60,3 +60,13 @@ $route['stud/edit/(\d+)'] = 'Stud_controller/update_student_view/$1';
 $route['stud/delete/(\d+)'] = 'Stud_controller/delete_student/$1';
 
 $route['email'] = 'Email_Controller';
+$route['validation'] = 'Form';
+
+$route['sessionex'] = 'Session_Controller';
+$route['sessionex/unset'] = 'Session_Controller/unset_session_data';
+
+$route['flashdata'] = 'FlashData_Controller'; 
+$route['flashdata/add'] = 'FlashData_Controller/add';
+
+$route['tempdata'] = "Tempdata_controller"; 
+$route['tempdata/add'] = "Tempdata_controller/add";
