@@ -70,3 +70,7 @@ $route['flashdata/add'] = 'FlashData_Controller/add';
 
 $route['tempdata'] = "Tempdata_controller"; 
 $route['tempdata/add'] = "Tempdata_controller/add";
+
+$route['cookie'] = "Cookie_controller"; 
+$route['cookie/display'] = "Cookie_controller/display_cookie"; 
+$route['cookie/delete'] = "Cookie_controller/delete_cookie";
